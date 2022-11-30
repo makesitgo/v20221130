@@ -1,0 +1,17 @@
+{
+    "id": "6387837788e65e49b65eb9b9",
+    "name": "ping",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "sendPing"
+            }
+        }
+    }
+}
