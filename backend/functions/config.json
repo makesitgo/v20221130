@@ -11,5 +11,10 @@
         "name": "isOdd",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "bang",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
