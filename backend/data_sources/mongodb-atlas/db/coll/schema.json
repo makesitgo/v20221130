@@ -1,0 +1,14 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "label": {
+            "bsonType": "string"
+        },
+        "value": {
+            "bsonType": "long"
+        }
+    },
+    "title": "coll"
+}
